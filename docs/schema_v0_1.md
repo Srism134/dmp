@@ -1,31 +1,39 @@
-﻿# DMP v0.1 — Minimal EMIS-Aligned Data Model (MVP)
+﻿## Minimum Viable Data Model (MVP)
 
-This is the **minimum** schema needed to build a working Digital Medical Passport prototype.  
-It follows the EMIS Extended Dataset field names where possible and keeps only essential columns.
+### Patient
+- PatientGuid (UUID, PK)
+- Forenames (text)
+- Surname (text)
+- DateOfBirth (date)
+- Sex (code: F/M/U/I)
+- PostCode (text)
+- Ethnicity (text, optional)
+- PatientType (int; from lookup)
+- PatientStatus (int; from lookup)
+- NHSNumber (text; fake or null allowed)
 
----
+### Appointment
+- AppointmentGuid (UUID, PK)
+- PatientGuid (UUID, FK→Patient)
+- StartDateTime (datetime)
+- EndDateTime (datetime)
+- CurrentStatus (int; from lookup)
+- SessionLocation (text)
 
-## 1) Entities included (MVP)
-- **Patient** (core identity)
-- **Appointment** (basic visit history)
-- **Medication** (active/past meds)
-- **Event** (observations / immunisations / allergies in one table for v0)
+### Medication
+- MedicationGuid (UUID, PK)
+- PatientGuid (UUID, FK→Patient)
+- Term (text; e.g., “Amoxicillin 500mg cap”)
+- Dosage (text; e.g., “500 mg TID for 5 days”)
+- PrescriptionType (int; 1=Acute, 2=Repeat, 3=Repeat Dispensed, 4=Automatic)
+- DrugStatus (int; 1=Current, 2=Past, 3=Never Active)
+- EffectiveDateTime (datetime)
 
-*Later (v1.0, optional):* **Problem**, **MedicationIssue** (only if time permits).
-
----
-
-## 2) Keys & Relationships
-
-### Primary Keys (PK)
-- Patient: `PatientGuid` (UUID string)
-- Appointment: `AppointmentGuid` (UUID string)
-- Medication: `MedicationGuid` (UUID string)
-- Event: `EventGuid` (UUID string)
-
-### Foreign Keys (FK)
-- Appointment.`PatientGuid` → Patient.`PatientGuid`
-- Medication.`PatientGuid` → Patient.`PatientGuid`
-- Event.`PatientGuid` → Patient.`PatientGuid`
-
-### ER (text)
+### Event (use for observations/immunisations/allergies etc.)
+- EventGuid (UUID, PK)
+- PatientGuid (UUID, FK→Patient)
+- EventType (int; e.g., 1=Observation, 11=Allergy, 13=Immunisation)
+- Term (text; e.g., “COVID-19 vaccine”, “Penicillin allergy”, “BP systolic”)
+- ReadCode (text, optional)
+- SnomedCTCode (text, optional)
+- EffectiveDateTime (datetime)
