@@ -1,0 +1,42 @@
+id,value
+1,Patient has presented
+2,Medical card (FP4) received
+3,Application Form FP1 submitted
+4,Notification of registration
+5,Medical record sent by FHSA
+6,Record Received
+7,Left Practice. Still Registered
+8,Correctly registered
+9,Short stay
+10,Long stay
+11,Death
+12,Dead (Practice notification)
+13,Record Requested by FHSA
+14,Removal to New HA/HB
+15,Internal transfer
+16,Mental hospital
+17,Embarkation
+18,New HA/HB - same GP
+19,Adopted child
+20,Services
+21,Deduction at GP's request
+22,Registration cancelled
+23,Service dependant
+24,Deduction at patient's request
+25,Other reason
+26,Returned undelivered
+27,Internal transfer - address change
+28,Internal transfer within partnership
+29,Correspondence states 'gone away'
+30,Practice advise outside of area
+31,Practice advise patient no longer resident
+32,Practice advise removal via screening system
+33,Practice advise removal via vaccination data
+34,Removal from Residential Institute
+35,Records sent back to FHSA
+36,Records received by FHSA
+37,Registration expired
+38,All records removed
+39,Untraced-outwith HB
+40,Multiple Transfer
+41,Intra-consortium transfer
