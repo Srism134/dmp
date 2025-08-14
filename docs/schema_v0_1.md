@@ -1,13 +1,49 @@
-﻿## 3) Relationships
+﻿## Appendix: SQLite DDL (MVP)
 
-- Patient (1) — (Many) Appointment via PatientGuid
-- Patient (1) — (Many) Medication via PatientGuid
-- Patient (1) — (Many) Event via PatientGuid
+> This is for reference only — we will not run this yet.
 
-**Cardinality:** Patient is the parent; Appointment/Medication/Event are children.
+```sql
+CREATE TABLE Patient (
+    PatientGuid TEXT PRIMARY KEY,
+    Forenames TEXT NOT NULL,
+    Surname TEXT NOT NULL,
+    DateOfBirth DATE NOT NULL,
+    Sex TEXT NOT NULL CHECK(Sex IN ('F','M','U','I')),
+    PostCode TEXT,
+    Ethnicity TEXT,
+    PatientType INTEGER NOT NULL,
+    PatientStatus INTEGER NOT NULL,
+    NHSNumber TEXT
+);
 
-### Quick ERD (text)
-Patient (PatientGuid PK)
-  ├─< Appointment (AppointmentGuid PK, PatientGuid FK)
-  ├─< Medication   (MedicationGuid  PK, PatientGuid FK)
-  └─< Event        (EventGuid       PK, PatientGuid FK)
+CREATE TABLE Appointment (
+    AppointmentGuid TEXT PRIMARY KEY,
+    PatientGuid TEXT NOT NULL,
+    StartDateTime TEXT NOT NULL,
+    EndDateTime TEXT NOT NULL,
+    CurrentStatus INTEGER NOT NULL,
+    SessionLocation TEXT,
+    FOREIGN KEY (PatientGuid) REFERENCES Patient(PatientGuid)
+);
+
+CREATE TABLE Medication (
+    MedicationGuid TEXT PRIMARY KEY,
+    PatientGuid TEXT NOT NULL,
+    Term TEXT NOT NULL,
+    Dosage TEXT,
+    PrescriptionType INTEGER NOT NULL,
+    DrugStatus INTEGER NOT NULL,
+    EffectiveDateTime TEXT NOT NULL,
+    FOREIGN KEY (PatientGuid) REFERENCES Patient(PatientGuid)
+);
+
+CREATE TABLE Event (
+    EventGuid TEXT PRIMARY KEY,
+    PatientGuid TEXT NOT NULL,
+    EventType INTEGER NOT NULL,
+    Term TEXT NOT NULL,
+    ReadCode TEXT,
+    SnomedCTCode TEXT,
+    EffectiveDateTime TEXT NOT NULL,
+    FOREIGN KEY (PatientGuid) REFERENCES Patient(PatientGuid)
+);
