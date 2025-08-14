@@ -1,4 +1,14 @@
-﻿## Appendix: SQLite DDL (MVP)
+﻿## Acceptance Criteria (MVP)
+
+- At least **50** Patients.
+- Each patient has **1–5** appointments, **0–3** medications, **0–5** events.
+- All foreign keys are valid (no orphan records).
+- Coded fields only use values from lookup CSVs.
+- All dates are sensible:
+  - Date of Birth is in the past.
+  - Appointments fall in realistic time windows.
+
+## Appendix: SQLite DDL (MVP)
 
 > This is for reference only — we will not run this yet.
 

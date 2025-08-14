@@ -3,6 +3,21 @@ from datetime import datetime, timedelta
 from dateutil.relativedelta import relativedelta
 from faker import Faker
 
+# How many to create
+NUM_PATIENTS = 50           # <- make it 100
+APPTS_PER_PATIENT = (1, 5)   # inclusive range
+MEDS_PER_PATIENT  = (0, 3)
+EVENTS_PER_PATIENT = (0, 5)
+
+# Lookups folder (keep exactly this relative path)
+LOOKUPS_DIR = "data/lookups"
+
+# NHS number generator (fake only)
+def fake_nhs_number():
+    # 10 digits, clearly synthetic; adjust if you prefer 999xxxxxxx pattern
+    return ''.join(random.choice('0123456789') for _ in range(10))
+
+
 # === settings ===
 OUT_DIR = "data"
 LOOKUPS_DIR = "data/lookups_mvp"   # <- use the MVP lookups we just made
