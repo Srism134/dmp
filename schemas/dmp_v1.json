@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Digital Medical Passport v1",
+  "type": "object",
+  "required": ["version", "patient", "appointments", "medications", "events"],
+  "properties": {
+    "version": { "type": "string" },
+    "patient": {
+      "type": "object",
+      "required": ["PatientGuid", "Forenames", "Surname", "DateOfBirth", "Sex", "PostCode"],
+      "properties": {
+        "PatientGuid": { "type": "string", "pattern": "^[0-9a-fA-F-]{36}$" },
+        "Forenames": { "type": "string" },
+        "Surname": { "type": "string" },
+        "DateOfBirth": { "type": "string" },
+        "Sex": { "type": "string", "enum": ["F", "M", "U", "I"] },
+        "PostCode": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "appointments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["AppointmentGuid", "StartDateTime", "EndDateTime", "SessionLocation", "CurrentStatus"],
+        "properties": {
+          "AppointmentGuid": { "type": "string", "pattern": "^[0-9a-fA-F-]{36}$" },
+          "StartDateTime": { "type": "string" },
+          "EndDateTime": { "type": "string" },
+          "SessionLocation": { "type": "string" },
+          "CurrentStatus": { "type": "integer" }
+        },
+        "additionalProperties": true
+      }
+    },
+    "medications": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["MedicationGuid", "Term", "Dosage", "PrescriptionType", "DrugStatus", "EffectiveDateTime"],
+        "properties": {
+          "MedicationGuid": { "type": "string", "pattern": "^[0-9a-fA-F-]{36}$" },
+          "Term": { "type": "string" },
+          "Dosage": { "type": "string" },
+          "PrescriptionType": { "type": "integer" },
+          "DrugStatus": { "type": "integer" },
+          "EffectiveDateTime": { "type": "string" }
+        },
+        "additionalProperties": true
+      }
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["EventGuid", "EventType", "Term", "EffectiveDateTime"],
+        "properties": {
+          "EventGuid": { "type": "string", "pattern": "^[0-9a-fA-F-]{36}$" },
+          "EventType": { "type": "integer" },
+          "Term": { "type": "string" },
+          "ReadCode": { "type": "string" },
+          "SnomedCTCode": { "type": "string" },
+          "EffectiveDateTime": { "type": "string" }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": false
+}
