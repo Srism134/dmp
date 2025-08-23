@@ -1,0 +1,62 @@
+{
+  "version": "1.0",
+  "patient": {
+    "PatientGuid": "5f24b3b6-7dba-4cec-9d4a-34fbdf5a85fe",
+    "Forenames": "David",
+    "Surname": "Anderson",
+    "DateOfBirth": "1996-10-19",
+    "Sex": "I",
+    "PostCode": "BA153BJ"
+  },
+  "appointments": [
+    {
+      "AppointmentGuid": "c327ab70-ad6c-4f00-ab17-3688f68113b1",
+      "StartDateTime": "2023-07-25T08:01:33",
+      "EndDateTime": "2023-07-25T08:11:33",
+      "SessionLocation": "Walk-In Centre",
+      "CurrentStatus": 3
+    },
+    {
+      "AppointmentGuid": "5d28d31a-62a7-48e3-a78a-0a03c4e95b5b",
+      "StartDateTime": "2020-11-17T18:28:12",
+      "EndDateTime": "2020-11-17T18:58:12",
+      "SessionLocation": "GP Surgery A",
+      "CurrentStatus": 7
+    }
+  ],
+  "medications": [],
+  "events": [
+    {
+      "EventGuid": "04a5c1aa-9bf1-4642-b178-e2d40900a872",
+      "EventType": 13,
+      "Term": "COVID-19 vaccine",
+      "ReadCode": "",
+      "SnomedCTCode": "",
+      "EffectiveDateTime": "2024-04-03T00:49:57"
+    },
+    {
+      "EventGuid": "0a0edc15-aa7d-47a1-a9dd-4ade625dfba3",
+      "EventType": 11,
+      "Term": "Peanut allergy",
+      "ReadCode": "",
+      "SnomedCTCode": "",
+      "EffectiveDateTime": "2023-03-09T06:16:33"
+    },
+    {
+      "EventGuid": "52bb1296-f993-4eeb-8cb6-4a1933f26481",
+      "EventType": 1,
+      "Term": "Temperature",
+      "ReadCode": "",
+      "SnomedCTCode": "",
+      "EffectiveDateTime": "2023-02-20T02:21:44"
+    },
+    {
+      "EventGuid": "d904cf0d-64bc-4ce9-8114-53c95d3d2ba4",
+      "EventType": 13,
+      "Term": "MMR vaccine",
+      "ReadCode": "",
+      "SnomedCTCode": "",
+      "EffectiveDateTime": "2022-02-15T20:46:59"
+    }
+  ]
+}

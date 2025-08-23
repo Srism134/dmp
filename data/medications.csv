@@ -1,74 +1,74 @@
 MedicationGuid,PatientGuid,Term,Dosage,PrescriptionType,DrugStatus,EffectiveDateTime
-54b85ddb-c701-4a31-a78f-d09dac469053,cfc5a779-7c93-4dee-b9ca-ac670b4a50bf,Atorvastatin 20mg tablet,500 mg three times daily,4,3,2024-03-05T21:51:21
-ef9c3355-12ac-4aba-b7ab-0d30c13d0036,cfc5a779-7c93-4dee-b9ca-ac670b4a50bf,Atorvastatin 20mg tablet,1 tablet twice daily,1,2,2021-09-22T17:18:53
-b8327736-f6f9-41a6-a071-f9a38fe04f2b,cfc5a779-7c93-4dee-b9ca-ac670b4a50bf,Paracetamol 500mg tablet,10 mg once daily,3,2,2023-05-21T17:28:22
-021bf0ef-d512-4cab-9f4b-295fd4cd2994,e539b5b6-d19e-4c59-9620-2ab512ad79a9,Atorvastatin 20mg tablet,200 mg as needed,3,3,2025-07-26T21:12:15
-b7b49eb9-e3d5-49b9-9b32-dd8e3a069dcf,e539b5b6-d19e-4c59-9620-2ab512ad79a9,Ibuprofen 200mg tablet,1 tablet twice daily,1,1,2023-09-30T06:38:41
-7ceef94a-1006-4789-b12b-67ada6af7396,e539b5b6-d19e-4c59-9620-2ab512ad79a9,Ibuprofen 200mg tablet,1 tablet twice daily,2,1,2021-06-27T11:16:45
-88243a1a-cedc-49a9-a4ac-f1333f6aed68,dfc7c8da-f3f9-4340-8a98-87f3acd650ff,Amoxicillin 500mg capsule,200 mg as needed,3,3,2022-08-19T01:36:27
-44cbea45-fcea-4092-95c7-09ff0b7015fc,dfc7c8da-f3f9-4340-8a98-87f3acd650ff,Ibuprofen 200mg tablet,200 mg as needed,4,1,2023-08-11T02:25:58
-b8aebc51-4b39-41b3-a80e-14c734bfc197,dfc7c8da-f3f9-4340-8a98-87f3acd650ff,Atorvastatin 20mg tablet,10 mg once daily,3,1,2021-01-27T20:23:01
-8c81a50f-a5fb-4568-9c0b-7d7482029bd1,017c0feb-3710-4cb7-9b88-2d737924b758,Lisinopril 10mg tablet,500 mg three times daily,4,1,2025-03-24T10:01:26
-5bbb666b-cf91-4f2d-a58c-134f18cff817,017c0feb-3710-4cb7-9b88-2d737924b758,Lisinopril 10mg tablet,500 mg three times daily,1,2,2024-06-24T23:47:21
-845fa92a-ccb5-4c3f-86f7-46b5a10e4262,017c0feb-3710-4cb7-9b88-2d737924b758,Atorvastatin 20mg tablet,10 mg once daily,3,1,2022-01-12T13:12:35
-bc7314e7-3e83-4c38-9670-2b0117d1c016,328d8556-d40b-4076-975c-0d4b3347ee50,Amoxicillin 500mg capsule,1 tablet twice daily,4,1,2024-02-02T07:58:52
-4967d559-da4a-44d6-ab5a-d5db9cb8d2c2,328d8556-d40b-4076-975c-0d4b3347ee50,Amoxicillin 500mg capsule,1 tablet twice daily,3,1,2022-01-31T18:37:25
-6804b448-80d1-499d-9b14-5a664c986ed1,328d8556-d40b-4076-975c-0d4b3347ee50,Ibuprofen 200mg tablet,200 mg as needed,2,1,2023-04-10T23:54:25
-76d4e485-43a5-4772-9d3e-ba90188b4358,dbdc2075-b0ee-43b8-aa4c-da8f250cb558,Amoxicillin 500mg capsule,1 tablet twice daily,3,2,2020-10-14T00:14:29
-3269dba5-57a7-4aa5-8f54-f38b9f4ad80b,8b3711f9-c19a-4237-b73c-39e92305278c,Amoxicillin 500mg capsule,200 mg as needed,3,1,2025-06-17T00:46:20
-d347420d-4e95-476d-9677-d7e1c90da681,8b3711f9-c19a-4237-b73c-39e92305278c,Atorvastatin 20mg tablet,1 tablet twice daily,2,3,2023-10-25T19:12:42
-0fcf095f-30be-4582-8fb2-13e5c84e44a9,2988dfaf-3601-495a-a6ea-803f791f9657,Atorvastatin 20mg tablet,200 mg as needed,1,2,2022-10-02T08:34:48
-cb4727be-3405-4a0c-88f0-f7f7caeb1784,2988dfaf-3601-495a-a6ea-803f791f9657,Ibuprofen 200mg tablet,10 mg once daily,2,3,2025-03-26T10:58:13
-5b8b460e-2699-495c-ae8c-1349291ddc90,2988dfaf-3601-495a-a6ea-803f791f9657,Amoxicillin 500mg capsule,1 tablet twice daily,1,1,2022-10-11T16:37:50
-a70475b6-ef5e-4422-aa30-59604dc85b53,7a14ecef-a453-4ca2-95f6-0727475da102,Ibuprofen 200mg tablet,10 mg once daily,3,1,2021-07-11T07:59:29
-348e9ec0-970e-4a06-a11c-5dd66340b0ae,7a14ecef-a453-4ca2-95f6-0727475da102,Paracetamol 500mg tablet,200 mg as needed,1,1,2024-04-28T02:18:08
-e34e3575-c1c0-4c35-903c-4201ab7d2083,a37af7a4-59fa-4990-b840-b7b4ce7e563c,Ibuprofen 200mg tablet,500 mg three times daily,1,2,2022-10-08T02:36:33
-d7008729-5b3c-4c97-9e2e-b52035fed0af,a37af7a4-59fa-4990-b840-b7b4ce7e563c,Ibuprofen 200mg tablet,200 mg as needed,3,1,2021-09-20T18:04:27
-9947a5af-8faa-47c8-9b93-f442ac1a8c19,a37af7a4-59fa-4990-b840-b7b4ce7e563c,Lisinopril 10mg tablet,1 tablet twice daily,1,1,2022-02-15T11:28:34
-a487d25e-b9ff-4c05-ae66-56e1171b4036,324ea2ee-bf74-4fec-997d-ce35521cc589,Atorvastatin 20mg tablet,10 mg once daily,1,2,2020-09-21T04:05:31
-8100c6c0-649c-42b3-beeb-4991d1a814a1,324ea2ee-bf74-4fec-997d-ce35521cc589,Ibuprofen 200mg tablet,500 mg three times daily,4,3,2025-03-20T14:03:49
-61f548ef-ffe9-42cd-af77-f3ab39fc69a7,324ea2ee-bf74-4fec-997d-ce35521cc589,Amoxicillin 500mg capsule,200 mg as needed,1,1,2022-10-18T15:09:44
-30d69ece-1f2e-419e-b616-52afbb71a237,01bfbb64-50fb-4221-a169-c0da7de8c3b2,Lisinopril 10mg tablet,500 mg three times daily,1,1,2025-05-17T03:30:03
-6285de20-e993-4904-a24e-6855782baff1,a6aebd5b-4e3d-4b16-af5c-9b0753859a4b,Atorvastatin 20mg tablet,1 tablet twice daily,4,3,2023-11-17T08:11:55
-0939e538-1d86-4f6c-88ae-0014d8d0d767,a6aebd5b-4e3d-4b16-af5c-9b0753859a4b,Ibuprofen 200mg tablet,200 mg as needed,2,1,2022-11-14T17:47:56
-c48bd544-7108-42cf-95dd-b34ed2759783,a6aebd5b-4e3d-4b16-af5c-9b0753859a4b,Ibuprofen 200mg tablet,1 tablet twice daily,2,1,2021-11-09T11:11:42
-092c3c2b-b28a-425c-aef7-cdaf605a3bc7,d9e5c8eb-81fc-419b-9b14-d4c25d9e37b1,Paracetamol 500mg tablet,1 tablet twice daily,3,3,2022-07-02T21:40:05
-7fcd0f93-2c8c-4888-977d-eb8cf57e0656,d9e5c8eb-81fc-419b-9b14-d4c25d9e37b1,Ibuprofen 200mg tablet,500 mg three times daily,1,3,2023-12-21T08:08:23
-1a61e326-da68-4540-a5c7-99e815e1198a,d9e5c8eb-81fc-419b-9b14-d4c25d9e37b1,Lisinopril 10mg tablet,10 mg once daily,1,2,2022-03-01T01:49:15
-c698e29e-333f-4c65-9b2b-ed7f8ee1932f,f962b33d-2a0f-4770-82e6-53af9be14ad9,Paracetamol 500mg tablet,500 mg three times daily,2,3,2024-06-22T02:39:53
-83b5a45c-ed3f-49e9-b5a1-9e87cb79fe2c,f962b33d-2a0f-4770-82e6-53af9be14ad9,Paracetamol 500mg tablet,200 mg as needed,1,2,2022-06-10T07:07:54
-9d9139b3-12bc-4b73-b961-9eab8f3d5302,f962b33d-2a0f-4770-82e6-53af9be14ad9,Paracetamol 500mg tablet,200 mg as needed,3,3,2024-07-15T07:20:28
-c6035609-be78-4623-861a-89492b4b7713,13f2a398-b460-4246-ba3b-b90180f9aeb2,Ibuprofen 200mg tablet,200 mg as needed,2,2,2021-01-28T13:19:47
-0208e9e6-acbe-4f83-a50a-6f8fde76ed5e,432b985d-a0af-44ff-b3ec-fd8be8f0a5f4,Atorvastatin 20mg tablet,1 tablet twice daily,1,1,2021-11-24T09:41:04
-064a5f58-cc3c-4f4f-bf9b-6c63582868fa,432b985d-a0af-44ff-b3ec-fd8be8f0a5f4,Paracetamol 500mg tablet,200 mg as needed,1,2,2021-10-22T00:25:10
-3d6a2c0c-14e2-4171-bf59-1decb0a47ae2,432b985d-a0af-44ff-b3ec-fd8be8f0a5f4,Amoxicillin 500mg capsule,1 tablet twice daily,2,2,2023-10-24T19:29:41
-d4bd3aa7-8106-40db-8a26-f36d544d5722,31207923-568f-4a2f-bd14-7e49e5985813,Amoxicillin 500mg capsule,10 mg once daily,2,1,2022-05-19T09:13:39
-f7514a22-887b-4de0-ae01-de7551bf084a,630bf46d-9bbf-4960-ab5e-3091029db97a,Lisinopril 10mg tablet,200 mg as needed,4,2,2020-10-19T22:56:34
-ffc241f6-569c-4152-a515-1c1f4c3d58ae,630bf46d-9bbf-4960-ab5e-3091029db97a,Paracetamol 500mg tablet,10 mg once daily,3,1,2024-12-12T00:49:04
-22e19278-8f2f-420d-a1d8-b5a64f4b749f,d8911eee-5863-4ab9-9f42-6b46dbf73692,Atorvastatin 20mg tablet,200 mg as needed,2,3,2022-11-02T15:54:54
-8d225d70-d0f8-44ea-a7ab-2e09530b1bc0,d8911eee-5863-4ab9-9f42-6b46dbf73692,Atorvastatin 20mg tablet,1 tablet twice daily,3,3,2025-08-10T17:01:33
-e96fd893-654f-4048-bbd3-09fb4600fedc,38f21712-4ef0-41a7-9bc1-40d6acb7763a,Amoxicillin 500mg capsule,10 mg once daily,3,1,2024-03-05T20:23:47
-a23ce538-8e51-461c-80f1-022498566c0f,38f21712-4ef0-41a7-9bc1-40d6acb7763a,Paracetamol 500mg tablet,10 mg once daily,2,1,2025-07-17T22:31:22
-5c8d1531-5844-4885-b024-0fe383e25d04,589db617-0c47-4a52-b950-e9ee19f413e9,Ibuprofen 200mg tablet,1 tablet twice daily,2,3,2025-04-29T11:03:32
-80197c81-0dc2-4afd-96ce-9ccadc05dd44,f55d8d56-6b05-4a1d-8ef3-f4f079e9bb06,Paracetamol 500mg tablet,500 mg three times daily,1,1,2022-01-26T00:19:30
-5e3c8970-75a8-4158-805b-ab706b300c8a,f55d8d56-6b05-4a1d-8ef3-f4f079e9bb06,Atorvastatin 20mg tablet,200 mg as needed,2,1,2024-09-07T11:55:38
-deab52fb-1873-4101-8d8f-49222f19a603,f55d8d56-6b05-4a1d-8ef3-f4f079e9bb06,Lisinopril 10mg tablet,10 mg once daily,2,1,2023-02-09T22:03:48
-9f416f4b-204d-4e0b-a75e-c20e31915403,e32eaab1-58b2-4c99-9d06-1af272b5d67f,Paracetamol 500mg tablet,500 mg three times daily,3,3,2022-03-18T17:20:03
-5a8d2317-13e9-49f8-b90f-f65a7c0f57d8,e32eaab1-58b2-4c99-9d06-1af272b5d67f,Atorvastatin 20mg tablet,10 mg once daily,3,3,2024-10-04T13:01:41
-28897af5-3203-4896-8574-09db351f5eb1,e32eaab1-58b2-4c99-9d06-1af272b5d67f,Lisinopril 10mg tablet,200 mg as needed,3,2,2024-09-11T15:27:04
-0611cc40-d1ad-46c4-9715-5b66b20da3af,5e87c392-8ad0-44f7-864f-2a06a8378582,Ibuprofen 200mg tablet,200 mg as needed,3,3,2025-04-15T00:33:34
-a3dcf5eb-f7ef-480b-acdf-377692c352d9,5e87c392-8ad0-44f7-864f-2a06a8378582,Ibuprofen 200mg tablet,10 mg once daily,1,3,2024-01-01T14:22:03
-790bcb3c-6f41-4435-a3db-1a53feca1d66,5e87c392-8ad0-44f7-864f-2a06a8378582,Atorvastatin 20mg tablet,200 mg as needed,3,1,2022-01-26T10:52:16
-444663bc-dbe6-459d-9acc-a1eca8e987ef,ebd02c2e-c162-4104-9221-964a412095ed,Atorvastatin 20mg tablet,200 mg as needed,2,2,2022-03-23T12:55:39
-36f040b3-b8fb-48d5-9401-95697dab9e10,ebd02c2e-c162-4104-9221-964a412095ed,Amoxicillin 500mg capsule,1 tablet twice daily,2,3,2024-04-23T22:16:20
-4b64ac64-b5c2-4ebc-ae07-0c36081de82e,ebd02c2e-c162-4104-9221-964a412095ed,Amoxicillin 500mg capsule,500 mg three times daily,4,1,2025-04-15T10:17:55
-f328a1d9-db30-4221-8b04-adc2cd084b1a,027a4c66-5f3b-450a-9549-00a92ed323fd,Paracetamol 500mg tablet,1 tablet twice daily,3,1,2024-04-10T02:38:36
-c54b2661-ce88-4335-b477-5caae6805690,027a4c66-5f3b-450a-9549-00a92ed323fd,Ibuprofen 200mg tablet,500 mg three times daily,1,3,2022-04-21T15:40:42
-5ea8a96e-0219-4c89-bfa8-92c3464916e2,86826704-183a-4515-8cae-dc7451de4c3d,Amoxicillin 500mg capsule,10 mg once daily,4,1,2022-11-07T19:48:42
-13342d4a-f01a-40e0-a011-db5fe9d0bf77,6d05ed76-a8ea-43ed-a692-45e49b010981,Ibuprofen 200mg tablet,1 tablet twice daily,2,3,2022-08-01T19:28:32
-c7984858-76a7-488a-a5bf-5ec89c05da1e,a6448a98-0f93-492c-8e4f-28609060e731,Amoxicillin 500mg capsule,200 mg as needed,4,1,2023-04-26T16:30:29
-b550923e-ac43-460b-9e87-5b8cad20d05f,c7191f8e-4eed-4264-a97f-ff13847dbf16,Paracetamol 500mg tablet,200 mg as needed,2,1,2022-02-14T05:32:49
-17cde340-c8b3-46fb-bdb1-3fc85fbfd0ce,c7191f8e-4eed-4264-a97f-ff13847dbf16,Paracetamol 500mg tablet,200 mg as needed,1,3,2022-09-06T15:15:09
-b6ef29ab-a0e1-4d08-89ba-8c69f2b4c8f5,c7191f8e-4eed-4264-a97f-ff13847dbf16,Atorvastatin 20mg tablet,500 mg three times daily,4,1,2021-11-22T17:00:12
-0febbbb8-defe-43a1-b127-1bef6c144a2f,d0114230-eb92-4c41-a155-5ffa75580008,Ibuprofen 200mg tablet,10 mg once daily,3,3,2025-01-12T02:25:30
-642452e3-9c8e-4981-a2d0-4c42a6cf4c48,d0114230-eb92-4c41-a155-5ffa75580008,Atorvastatin 20mg tablet,1 tablet twice daily,4,2,2025-03-10T15:41:38
+10d4ac67-187c-492d-a08c-16d00c797d56,045ed076-ed5b-4e95-a8ab-431c6b3c32c2,Atorvastatin 20mg tablet,500 mg three times daily,4,3,2024-03-05T21:55:01
+dd0c27b3-51be-472a-aa0a-e605625f9191,045ed076-ed5b-4e95-a8ab-431c6b3c32c2,Atorvastatin 20mg tablet,1 tablet twice daily,1,2,2021-09-22T17:22:34
+37ca795f-af23-4902-b48c-9ffda92aec13,045ed076-ed5b-4e95-a8ab-431c6b3c32c2,Paracetamol 500mg tablet,10 mg once daily,3,2,2023-05-21T17:32:03
+876ea9a1-0b66-4372-9161-d438f44b38ee,92583eb8-c1dd-41e5-b7e3-c09d5e55e838,Atorvastatin 20mg tablet,200 mg as needed,3,3,2025-07-26T21:15:56
+6c71b1ca-8772-4a32-b61a-5ee81cc48d62,92583eb8-c1dd-41e5-b7e3-c09d5e55e838,Ibuprofen 200mg tablet,1 tablet twice daily,1,1,2023-09-30T06:42:22
+82e0a915-65c5-4f68-a275-3bcb01c85bed,92583eb8-c1dd-41e5-b7e3-c09d5e55e838,Ibuprofen 200mg tablet,1 tablet twice daily,2,1,2021-06-27T11:20:25
+d0b994da-7d08-4cf7-a4f9-a73877ced067,f0033df1-ed17-4157-b9a3-b907ce5c8777,Amoxicillin 500mg capsule,200 mg as needed,3,3,2022-08-19T01:40:08
+cd4e627b-991e-4c90-9041-5849e5b61adb,f0033df1-ed17-4157-b9a3-b907ce5c8777,Ibuprofen 200mg tablet,200 mg as needed,4,1,2023-08-11T02:29:39
+c23bebbc-0db4-40cc-906b-5afe6a9c088f,f0033df1-ed17-4157-b9a3-b907ce5c8777,Atorvastatin 20mg tablet,10 mg once daily,3,1,2021-01-27T20:26:42
+d95d93de-c82f-4655-9ea5-7bb7e0ea735f,80b154d6-29eb-4fc6-a320-e853f242c7c4,Lisinopril 10mg tablet,500 mg three times daily,4,1,2025-03-24T10:05:07
+8d05d851-ecd6-48bc-b3c1-d54397657603,80b154d6-29eb-4fc6-a320-e853f242c7c4,Lisinopril 10mg tablet,500 mg three times daily,1,2,2024-06-24T23:51:02
+e6ca5ee8-34bb-4f53-8041-fb3de4a0051f,80b154d6-29eb-4fc6-a320-e853f242c7c4,Atorvastatin 20mg tablet,10 mg once daily,3,1,2022-01-12T13:16:16
+291dff00-7e60-4575-b686-d916a4645ab4,670ac126-bade-4d01-a69c-f5582a4f848a,Amoxicillin 500mg capsule,1 tablet twice daily,4,1,2024-02-02T08:02:33
+6bd36542-80cb-425e-b039-545439f12b8e,670ac126-bade-4d01-a69c-f5582a4f848a,Amoxicillin 500mg capsule,1 tablet twice daily,3,1,2022-01-31T18:41:06
+492a356a-df58-4c3b-9037-4a3ae621043b,670ac126-bade-4d01-a69c-f5582a4f848a,Ibuprofen 200mg tablet,200 mg as needed,2,1,2023-04-10T23:58:05
+fea572ca-5d66-46a2-a8d5-481d5347b07f,5aa998db-3f2e-4330-835b-d46377ff7331,Amoxicillin 500mg capsule,1 tablet twice daily,3,2,2020-10-14T00:18:10
+a97ffba8-ddd0-404c-864f-fc5d3f6178e3,fc089e7f-1fcc-4a58-9d42-b9298db500f8,Amoxicillin 500mg capsule,200 mg as needed,3,1,2025-06-17T00:50:01
+f4aaff7b-4e1a-48be-8c98-77c36d3d5f6c,fc089e7f-1fcc-4a58-9d42-b9298db500f8,Atorvastatin 20mg tablet,1 tablet twice daily,2,3,2023-10-25T19:16:23
+b0ca6976-2c1c-4203-9a6a-da6cc984d08c,2b4924e7-d51e-42c8-bf4d-e3c81a0f1ce7,Atorvastatin 20mg tablet,200 mg as needed,1,2,2022-10-02T08:38:29
+f1fe02ab-3391-444d-8ac1-d50b354e3e4e,2b4924e7-d51e-42c8-bf4d-e3c81a0f1ce7,Ibuprofen 200mg tablet,10 mg once daily,2,3,2025-03-26T11:01:54
+0a501e33-a5d9-494f-9612-829aa9e22f00,2b4924e7-d51e-42c8-bf4d-e3c81a0f1ce7,Amoxicillin 500mg capsule,1 tablet twice daily,1,1,2022-10-11T16:41:31
+4f09d3ec-2e99-409d-b78f-b4c5094178fc,8efff166-fe5d-44f0-996b-afc25df6e172,Ibuprofen 200mg tablet,10 mg once daily,3,1,2021-07-11T08:03:10
+1b8418d3-fca9-43e3-a85a-1185a4ecb5bb,8efff166-fe5d-44f0-996b-afc25df6e172,Paracetamol 500mg tablet,200 mg as needed,1,1,2024-04-28T02:21:49
+514e9242-deb6-4850-a173-b465e4278f5f,c0afc41f-a3b2-4889-a200-367b2dec2006,Ibuprofen 200mg tablet,500 mg three times daily,1,2,2022-10-08T02:40:14
+1311eecb-4389-42d8-8fb0-fa1aced95005,c0afc41f-a3b2-4889-a200-367b2dec2006,Ibuprofen 200mg tablet,200 mg as needed,3,1,2021-09-20T18:08:07
+598d4ff4-4142-43dd-aeb9-b7c3573e7ea3,c0afc41f-a3b2-4889-a200-367b2dec2006,Lisinopril 10mg tablet,1 tablet twice daily,1,1,2022-02-15T11:32:15
+99c70bbd-44e2-47e5-a639-2c5cbc0e7f39,38decd93-2805-4aec-83f3-35b9a5638dcf,Atorvastatin 20mg tablet,10 mg once daily,1,2,2020-09-21T04:09:12
+7fa61d92-59f6-40ea-b8d9-ed89ad35f638,38decd93-2805-4aec-83f3-35b9a5638dcf,Ibuprofen 200mg tablet,500 mg three times daily,4,3,2025-03-20T14:07:30
+26774f30-8f1a-477d-95d0-68ae31d76927,38decd93-2805-4aec-83f3-35b9a5638dcf,Amoxicillin 500mg capsule,200 mg as needed,1,1,2022-10-18T15:13:25
+b7a78ce9-949d-49f8-bf61-34c51c1a7c50,148a9c46-3e91-41c3-a514-0e7724e4454c,Lisinopril 10mg tablet,500 mg three times daily,1,1,2025-05-17T03:33:44
+0330244e-2863-4d85-8f4c-2bb75c853691,9054346e-45b5-4e1f-bc71-07bf56f83ba2,Atorvastatin 20mg tablet,1 tablet twice daily,4,3,2023-11-17T08:15:36
+5162eacc-e8b6-4507-935e-a402ecb08a64,9054346e-45b5-4e1f-bc71-07bf56f83ba2,Ibuprofen 200mg tablet,200 mg as needed,2,1,2022-11-14T17:51:37
+8b315d0f-83a9-4477-81ba-23854b20cb2d,9054346e-45b5-4e1f-bc71-07bf56f83ba2,Ibuprofen 200mg tablet,1 tablet twice daily,2,1,2021-11-09T11:15:23
+58ffaf8f-8581-4890-bc51-19a4ec9110fe,d393cfe9-058c-4812-9dd9-d3d2d6791424,Paracetamol 500mg tablet,1 tablet twice daily,3,3,2022-07-02T21:43:46
+1f84dacb-45a3-4338-8480-7e6272b53224,d393cfe9-058c-4812-9dd9-d3d2d6791424,Ibuprofen 200mg tablet,500 mg three times daily,1,3,2023-12-21T08:12:03
+9f0ae430-a62a-4ffb-b23e-6f65d5238002,d393cfe9-058c-4812-9dd9-d3d2d6791424,Lisinopril 10mg tablet,10 mg once daily,1,2,2022-03-01T01:52:56
+b7a303c8-cd78-423b-ba00-65a150361e16,ee2a4d95-264f-4cde-be70-44a88998c6ee,Paracetamol 500mg tablet,500 mg three times daily,2,3,2024-06-22T02:43:34
+0768b3d4-b92e-4b88-9fd4-d921d9ddf2ed,ee2a4d95-264f-4cde-be70-44a88998c6ee,Paracetamol 500mg tablet,200 mg as needed,1,2,2022-06-10T07:11:35
+82c982c7-5f5d-4425-b4c5-1301e0fcc72c,ee2a4d95-264f-4cde-be70-44a88998c6ee,Paracetamol 500mg tablet,200 mg as needed,3,3,2024-07-15T07:24:09
+a69910af-1628-4868-a4f6-a0e903f493e5,7db69be4-2487-45d1-8863-9fbfa944c794,Ibuprofen 200mg tablet,200 mg as needed,2,2,2021-01-28T13:23:27
+e205d664-48c0-4bfc-ad6c-b6476166c9d4,33d2a552-50f9-4dc0-b63e-466f8eab7f69,Atorvastatin 20mg tablet,1 tablet twice daily,1,1,2021-11-24T09:44:45
+4f50452d-91e6-4865-b86b-64a10d01b602,33d2a552-50f9-4dc0-b63e-466f8eab7f69,Paracetamol 500mg tablet,200 mg as needed,1,2,2021-10-22T00:28:51
+266e72ab-a624-4900-9472-379b75b800b8,33d2a552-50f9-4dc0-b63e-466f8eab7f69,Amoxicillin 500mg capsule,1 tablet twice daily,2,2,2023-10-24T19:33:22
+34ba38e9-1c43-4e7f-bbdf-f5769c799065,9d42f8cf-732b-4bc7-b5e1-9b06d1aa94e8,Amoxicillin 500mg capsule,10 mg once daily,2,1,2022-05-19T09:17:20
+3b284c40-8c3c-4d3f-b2c0-75042d768ec5,7a93508e-a4a8-4725-8a46-f91af8bb3cdc,Lisinopril 10mg tablet,200 mg as needed,4,2,2020-10-19T23:00:15
+22cd3d09-e031-44b7-992d-0b2c2ff6c560,7a93508e-a4a8-4725-8a46-f91af8bb3cdc,Paracetamol 500mg tablet,10 mg once daily,3,1,2024-12-12T00:52:45
+03efb155-8b68-498e-9c3a-5008d8641626,b7503e47-765b-4b14-9773-b01858a2bb7c,Atorvastatin 20mg tablet,200 mg as needed,2,3,2022-11-02T15:58:35
+0dcb972e-4a3f-4c37-9ae1-302ebfcc74a1,b7503e47-765b-4b14-9773-b01858a2bb7c,Atorvastatin 20mg tablet,1 tablet twice daily,3,3,2025-08-10T17:05:14
+215c1f18-913c-43bd-b593-378b23ec4e31,c24016d1-f45e-41af-aeb6-6d0859178e71,Amoxicillin 500mg capsule,10 mg once daily,3,1,2024-03-05T20:27:27
+9a4a6aed-5d18-485c-ac2c-d969585620a4,c24016d1-f45e-41af-aeb6-6d0859178e71,Paracetamol 500mg tablet,10 mg once daily,2,1,2025-07-17T22:35:03
+f192da97-1d9c-4dfb-a6d4-a414a8f69f14,2510df97-7d2c-4bb6-9caa-a4d7fd988765,Ibuprofen 200mg tablet,1 tablet twice daily,2,3,2025-04-29T11:07:12
+5539b91c-29b1-41f7-8456-3f4e9c8300e1,a07ba1c4-a150-4378-9abc-6517229a23b5,Paracetamol 500mg tablet,500 mg three times daily,1,1,2022-01-26T00:23:11
+8d59478e-478e-4060-a185-377faec62616,a07ba1c4-a150-4378-9abc-6517229a23b5,Atorvastatin 20mg tablet,200 mg as needed,2,1,2024-09-07T11:59:19
+9e663d6a-49a9-44e6-b3db-76844c4a4e75,a07ba1c4-a150-4378-9abc-6517229a23b5,Lisinopril 10mg tablet,10 mg once daily,2,1,2023-02-09T22:07:28
+0eae8bc1-5f1b-4409-a7a5-9a2dbcc384a3,a6d5389d-e272-4ca2-a3dd-c9c94d5ffc8d,Paracetamol 500mg tablet,500 mg three times daily,3,3,2022-03-18T17:23:44
+66e66dce-abec-4d21-ab82-9b9700635f0f,a6d5389d-e272-4ca2-a3dd-c9c94d5ffc8d,Atorvastatin 20mg tablet,10 mg once daily,3,3,2024-10-04T13:05:22
+d0ff90a5-968d-411c-9641-5d125216699d,a6d5389d-e272-4ca2-a3dd-c9c94d5ffc8d,Lisinopril 10mg tablet,200 mg as needed,3,2,2024-09-11T15:30:44
+1478cb09-70e1-423d-8a06-59a49678ddea,28d7562e-2287-4dcf-b3b1-27c50134e329,Ibuprofen 200mg tablet,200 mg as needed,3,3,2025-04-15T00:37:14
+b1d44cba-8aeb-4d40-9de4-9122daf06c76,28d7562e-2287-4dcf-b3b1-27c50134e329,Ibuprofen 200mg tablet,10 mg once daily,1,3,2024-01-01T14:25:44
+64e2aa4e-3c29-4ca4-8ff0-5b0a6d49f4d0,28d7562e-2287-4dcf-b3b1-27c50134e329,Atorvastatin 20mg tablet,200 mg as needed,3,1,2022-01-26T10:55:57
+f9b3442b-187b-4024-b209-d822297083d2,b09f9bd4-4243-4de2-be7e-15beccd86084,Atorvastatin 20mg tablet,200 mg as needed,2,2,2022-03-23T12:59:20
+560223ab-416b-49c9-8425-49367b140104,b09f9bd4-4243-4de2-be7e-15beccd86084,Amoxicillin 500mg capsule,1 tablet twice daily,2,3,2024-04-23T22:20:01
+7f43bc63-2b28-4350-9db5-3376e6b644f3,b09f9bd4-4243-4de2-be7e-15beccd86084,Amoxicillin 500mg capsule,500 mg three times daily,4,1,2025-04-15T10:21:36
+9a736e7a-8eaf-47e9-a07e-3c0db3ffe1d3,dcb8e305-1205-4749-b88b-fc60148290bd,Paracetamol 500mg tablet,1 tablet twice daily,3,1,2024-04-10T02:42:17
+080da75a-72aa-4a4d-89c5-c66cd016aeaf,dcb8e305-1205-4749-b88b-fc60148290bd,Ibuprofen 200mg tablet,500 mg three times daily,1,3,2022-04-21T15:44:23
+931004c3-3130-4970-8e20-a072cdf06ec1,ef14336f-625b-4d5a-9c56-f6e229360fb2,Amoxicillin 500mg capsule,10 mg once daily,4,1,2022-11-07T19:52:23
+2241d62c-aeff-4b1c-af84-e61509574954,0fdd891e-16cc-4d03-b1b9-24da8d6b2a8b,Ibuprofen 200mg tablet,1 tablet twice daily,2,3,2022-08-01T19:32:13
+534fb49b-b136-453a-a3a7-3bfdf49e0d87,092ee3ce-0f6a-411f-b051-f03d4090736c,Amoxicillin 500mg capsule,200 mg as needed,4,1,2023-04-26T16:34:10
+f1832992-bb2f-4dff-87af-2bb0e94cf485,9341d9a7-345e-49ac-9ee8-17821dc2dcf1,Paracetamol 500mg tablet,200 mg as needed,2,1,2022-02-14T05:36:30
+a8b30b36-cb7a-4846-9f30-54deaef5c50d,9341d9a7-345e-49ac-9ee8-17821dc2dcf1,Paracetamol 500mg tablet,200 mg as needed,1,3,2022-09-06T15:18:49
+538990b2-91cc-4911-87ba-04b47cccaa59,9341d9a7-345e-49ac-9ee8-17821dc2dcf1,Atorvastatin 20mg tablet,500 mg three times daily,4,1,2021-11-22T17:03:53
+0ace912c-deba-424a-8c87-d4bd7857d120,b550ed88-3e61-4720-8410-c024ba4f1847,Ibuprofen 200mg tablet,10 mg once daily,3,3,2025-01-12T02:29:11
+44f44988-8f36-4264-aaf5-a2da9184350f,b550ed88-3e61-4720-8410-c024ba4f1847,Atorvastatin 20mg tablet,1 tablet twice daily,4,2,2025-03-10T15:45:19

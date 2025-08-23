@@ -1,0 +1,45 @@
+erDiagram
+  Patients ||--o{ Appointments : has
+  Patients ||--o{ Medications  : has
+  Patients ||--o{ Events       : has
+  Patients ||--o{ Immunisations: has
+
+  Patients {
+    TEXT patient_id PK
+    TEXT name
+    DATE dob
+    TEXT gender
+  }
+
+  Appointments {
+    TEXT appointment_id PK
+    TEXT patient_id FK
+    DATE date
+    TEXT doctor
+    TEXT reason
+  }
+
+  Medications {
+    TEXT medication_id PK
+    TEXT patient_id FK
+    TEXT drug_name
+    TEXT dose
+    DATE start_date
+    DATE end_date
+  }
+
+  Events {
+    TEXT event_id PK
+    TEXT patient_id FK
+    TEXT event_type
+    TEXT description
+    DATE date
+  }
+
+  Immunisations {
+    TEXT immunisation_id PK
+    TEXT patient_id FK
+    TEXT vaccine
+    DATE date
+    TEXT provider
+  }

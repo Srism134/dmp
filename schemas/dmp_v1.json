@@ -1,70 +1,81 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Digital Medical Passport v1",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Digital Medical Passport (v1)",
   "type": "object",
-  "required": ["version", "patient", "appointments", "medications", "events"],
+  "additionalProperties": false,
+  "required": ["PatientGuid", "Name", "DOB"],
   "properties": {
-    "version": { "type": "string" },
-    "patient": {
-      "type": "object",
-      "required": ["PatientGuid", "Forenames", "Surname", "DateOfBirth", "Sex", "PostCode"],
-      "properties": {
-        "PatientGuid": { "type": "string", "pattern": "^[0-9a-fA-F-]{36}$" },
-        "Forenames": { "type": "string" },
-        "Surname": { "type": "string" },
-        "DateOfBirth": { "type": "string" },
-        "Sex": { "type": "string", "enum": ["F", "M", "U", "I"] },
-        "PostCode": { "type": "string" }
-      },
-      "additionalProperties": true
-    },
-    "appointments": {
+    "PatientGuid": { "type": "string", "format": "uuid" },
+    "Name":        { "type": "string", "minLength": 1, "maxLength": 200 },
+    "DOB":         { "type": "string", "format": "date" },
+    "Sex":         { "type": "string", "enum": ["F", "M", "U", "I"] },
+    "PostCode":    { "type": "string", "minLength": 2, "maxLength": 10 },
+
+    "Allergies": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["AppointmentGuid", "StartDateTime", "EndDateTime", "SessionLocation", "CurrentStatus"],
+        "additionalProperties": false,
+        "required": ["term"],
         "properties": {
-          "AppointmentGuid": { "type": "string", "pattern": "^[0-9a-fA-F-]{36}$" },
-          "StartDateTime": { "type": "string" },
-          "EndDateTime": { "type": "string" },
-          "SessionLocation": { "type": "string" },
-          "CurrentStatus": { "type": "integer" }
-        },
-        "additionalProperties": true
+          "codeSystem": { "type": "string", "enum": ["SNOMED", "READ", "LOCAL"] },
+          "code":       { "type": "string" },
+          "term":       { "type": "string", "minLength": 1 },
+          "assertedDate": { "type": "string", "format": "date" },
+          "severity":   { "type": "string", "enum": ["mild", "moderate", "severe"] }
+        }
       }
     },
-    "medications": {
+
+    "Medications": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["MedicationGuid", "Term", "Dosage", "PrescriptionType", "DrugStatus", "EffectiveDateTime"],
+        "additionalProperties": false,
+        "required": ["term", "status"],
         "properties": {
-          "MedicationGuid": { "type": "string", "pattern": "^[0-9a-fA-F-]{36}$" },
-          "Term": { "type": "string" },
-          "Dosage": { "type": "string" },
-          "PrescriptionType": { "type": "integer" },
-          "DrugStatus": { "type": "integer" },
-          "EffectiveDateTime": { "type": "string" }
-        },
-        "additionalProperties": true
+          "medicationCode": { "type": "string" },
+          "term":           { "type": "string", "minLength": 1 },
+          "dosage":         { "type": "string" },
+          "startDate":      { "type": "string", "format": "date" },
+          "endDate":        { "type": "string", "format": "date" },
+          "status":         { "type": "string", "enum": ["current", "past", "never"] },
+          "prescriptionType": { "type": "integer", "enum": [1, 2, 3, 4] }
+        }
       }
     },
-    "events": {
+
+    "Appointments": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["EventGuid", "EventType", "Term", "EffectiveDateTime"],
+        "additionalProperties": false,
+        "required": ["startDateTime"],
         "properties": {
-          "EventGuid": { "type": "string", "pattern": "^[0-9a-fA-F-]{36}$" },
-          "EventType": { "type": "integer" },
-          "Term": { "type": "string" },
-          "ReadCode": { "type": "string" },
-          "SnomedCTCode": { "type": "string" },
-          "EffectiveDateTime": { "type": "string" }
-        },
-        "additionalProperties": true
+          "AppointmentGuid": { "type": "string", "format": "uuid" },
+          "startDateTime":   { "type": "string", "format": "date-time" },
+          "endDateTime":     { "type": "string", "format": "date-time" },
+          "status":          { "type": "integer", "enum": [2, 3, 4, 5, 7] },
+          "location":        { "type": "string" }
+        }
+      }
+    },
+
+    "Events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["eventType", "term", "effectiveDateTime"],
+        "properties": {
+          "EventGuid":         { "type": "string", "format": "uuid" },
+          "eventType":         { "type": "integer", "enum": [1, 11, 13] },
+          "term":              { "type": "string", "minLength": 1 },
+          "readCode":          { "type": "string" },
+          "snomedCTCode":      { "type": "string" },
+          "effectiveDateTime": { "type": "string", "format": "date-time" }
+        }
       }
     }
-  },
-  "additionalProperties": false
+  }
 }
